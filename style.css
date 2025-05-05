@@ -90,7 +90,7 @@ strong {
 }
 
 @media (max-width: 764px) {
-  /* 
+  /*
     Prevent card from overflowing on even smaller screens
     This is a bit hackier than I'd like, curious to see the solution
   */
@@ -99,3 +99,13 @@ strong {
     margin-right: 0;
   }
 }
+
+
+/*
+Things I did wrong:
+  - Should have added margin to container instead of Huckleberry heading
+  - Used px for heading fonts instead of REM
+  - Didn't nail spacing values due to unfamiliarity with Figma
+    - This would have eliminated the need for media queries altogether
+  - Didn't replace some browser styles with the styles from the mockups
+ */
